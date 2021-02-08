@@ -34,6 +34,7 @@ class UserController {
 
     @PostMapping("/verify_captcha")
     fun verifyCaptcha(@RequestBody token : CaptchaRequest) : ResponseEntity<Any?> {
+        println("Got verify_captcha request")
         return ResponseEntity.ok(true)
     }
 
