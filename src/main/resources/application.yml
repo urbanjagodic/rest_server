@@ -18,3 +18,8 @@ spring:
 server:
   address: localhost
   port: 6050
+
+app:
+  captcha:
+    url: https://www.google.com/recaptcha/api/siteverify
+    secret: 6Ldmgz0aAAAAALnuLNRL23IOrnXSQ_zGWioBI0Kc
